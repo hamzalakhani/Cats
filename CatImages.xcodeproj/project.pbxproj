@@ -13,6 +13,9 @@
 		CADB2EC11DE4A4DA006E0D00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADB2EBF1DE4A4DA006E0D00 /* Main.storyboard */; };
 		CADB2EC31DE4A4DA006E0D00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADB2EC21DE4A4DA006E0D00 /* Assets.xcassets */; };
 		CADB2EC61DE4A4DA006E0D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CADB2EC41DE4A4DA006E0D00 /* LaunchScreen.storyboard */; };
+		CADB2ECF1DE4A941006E0D00 /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB2ECE1DE4A941006E0D00 /* PhotoModel.m */; };
+		CADB2ED21DE4B04D006E0D00 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB2ED11DE4B04D006E0D00 /* CollectionViewCell.m */; };
+		CADB2ED81DE4FF91006E0D00 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CADB2ED71DE4FF91006E0D00 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		CADB2EC21DE4A4DA006E0D00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CADB2EC51DE4A4DA006E0D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CADB2EC71DE4A4DA006E0D00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CADB2ECD1DE4A941006E0D00 /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
+		CADB2ECE1DE4A941006E0D00 /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		CADB2ED01DE4B04D006E0D00 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		CADB2ED11DE4B04D006E0D00 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		CADB2ED61DE4FF91006E0D00 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CADB2ED71DE4FF91006E0D00 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				CADB2EBA1DE4A4DA006E0D00 /* AppDelegate.m */,
 				CADB2EBC1DE4A4DA006E0D00 /* ViewController.h */,
 				CADB2EBD1DE4A4DA006E0D00 /* ViewController.m */,
+				CADB2ECD1DE4A941006E0D00 /* PhotoModel.h */,
+				CADB2ECE1DE4A941006E0D00 /* PhotoModel.m */,
+				CADB2ED01DE4B04D006E0D00 /* CollectionViewCell.h */,
+				CADB2ED11DE4B04D006E0D00 /* CollectionViewCell.m */,
+				CADB2ED61DE4FF91006E0D00 /* DetailViewController.h */,
+				CADB2ED71DE4FF91006E0D00 /* DetailViewController.m */,
 				CADB2EBF1DE4A4DA006E0D00 /* Main.storyboard */,
 				CADB2EC21DE4A4DA006E0D00 /* Assets.xcassets */,
 				CADB2EC41DE4A4DA006E0D00 /* LaunchScreen.storyboard */,
@@ -152,8 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADB2EBE1DE4A4DA006E0D00 /* ViewController.m in Sources */,
+				CADB2ED21DE4B04D006E0D00 /* CollectionViewCell.m in Sources */,
 				CADB2EBB1DE4A4DA006E0D00 /* AppDelegate.m in Sources */,
+				CADB2ECF1DE4A941006E0D00 /* PhotoModel.m in Sources */,
 				CADB2EB81DE4A4DA006E0D00 /* main.m in Sources */,
+				CADB2ED81DE4FF91006E0D00 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +328,7 @@
 				CADB2ECC1DE4A4DA006E0D00 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
